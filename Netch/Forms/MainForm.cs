@@ -210,7 +210,8 @@ namespace Netch.Forms
 
         private void AddSocks5ServerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            (new Server.Socks5()).Show();
+            Hide();
         }
 
         private void AddShadowsocksServerToolStripMenuItem_Click(object sender, EventArgs e)
@@ -363,18 +364,20 @@ namespace Netch.Forms
                 switch (Global.Server[ServerComboBox.SelectedIndex].Type)
                 {
                     case "Socks5":
+                        (new Server.Socks5(ServerComboBox.SelectedIndex)).Show();
                         break;
                     case "Shadowsocks":
                         (new Server.Shadowsocks(ServerComboBox.SelectedIndex)).Show();
-                        Hide();
                         break;
                     case "ShadowsocksR":
-                        break;
+                        return;
                     case "VMess":
-                        break;
+                        return;
                     default:
-                        break;
+                        return;
                 }
+
+                Hide();
             }
             else
             {

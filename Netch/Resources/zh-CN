@@ -19,6 +19,7 @@
     "Import Servers From Clipboard": "从剪贴板导入服务器",
 
     "Address": "地址",
+    "Username": "用户名",
     "Password": "密码",
     "Encrypt Method": "加密方式",
     
