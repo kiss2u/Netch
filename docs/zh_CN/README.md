@@ -5,5 +5,5 @@
 ![](screenshots/main.png)
 
 # 鸣谢
-- 最初的项目由 [@Holli_Freed](https://github.com/hollifreed) 创建
+- 最初的项目由 [@Holli_Freed](https://github.com/hacking001) 创建
 - 图标由 [@yiudeoo](https://t.me/yiudeoo) 制作
