@@ -8,7 +8,3 @@ Game acceleration tool
 
 # Requirements
 - [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48)
-
-# Thanks
-- Created by [@Holli_Freed](https://github.com/hacking001)
-- Icon by [@yiudeoo](https://t.me/yiudeoo)
